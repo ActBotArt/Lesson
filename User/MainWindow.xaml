@@ -1,0 +1,18 @@
+﻿<Window x:Class="User.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:User"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="1200"
+        Icon="Resources/act.ico">
+    <Grid>
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <local:RhombusControl Header="с нг" Description="Пусть Новый год ворвётся в жизнь сказкой, полной уюта, тепла и благополучия!" ColoredSource="Resources/1.jpg" Width="292"/>
+            <local:RhombusControl Header="с 8 марта" Description="В весенний день 8 Марта Желаем счастья, красоты, В желаньях смелого азарта И исполнения мечты!" ColoredSource="Resources/3.jpg" Width="257"/>
+            <local:RhombusControl Header="с 23 февраля" Description="С праздником мужества, славы и силы! Чествуем вас, дорогие мужчины! И от души вам желаем с любовью, Чтоб богатырским было здоровье." ColoredSource="Resources/4.jpg" Width="294"/>
+            <local:RhombusControl Header="с др" Description="Ты чудесная и прекрасная спутница, моя вторая половинка." ColoredSource="Resources/2.jpg" Width="289"/>
+        </StackPanel>
+    </Grid>
+</Window>
